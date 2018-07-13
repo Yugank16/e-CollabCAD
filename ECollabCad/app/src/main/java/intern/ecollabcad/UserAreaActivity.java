@@ -73,6 +73,11 @@ public class UserAreaActivity extends AppCompatActivity {
                         startActivity(profileIntent);
                         break;
                     }
+                    case R.id.gett_help:{
+                        Intent profileIntent= new Intent(UserAreaActivity.this,Demo.class);
+                        startActivity(profileIntent);
+                        break;
+                    }
 
                     case R.id.logout:{
                         Intent logoutIntent= new Intent(UserAreaActivity.this,LoginActivity.class);
